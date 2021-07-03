@@ -21,6 +21,7 @@ class App extends Component {
     return (
       <div>
         <h1>Hello {this.state.date.toLocaleTimeString(this.props.local)}</h1>
+        <h1>Hello {this.state.date.toLocaleTimeString(this.props.local)}</h1>
       </div>
     );
   }
